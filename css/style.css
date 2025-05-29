@@ -1,0 +1,763 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+
+
+body {
+    background-color: #F8F8FA;
+}
+
+header {
+ 
+    background: url("../img/background-header-menu.png") no-repeat top right;
+    background-size: auto 100%;
+    background-color: #FFFFFF;
+    
+
+}
+
+.main-text {
+    font-family: 'Poppins Bold';
+    width: 524px;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.sub-text {
+    font-family: 'Poppins Regular';
+    margin-bottom: 35px;
+    width: 506px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.container-hero {
+    margin: 50px auto;
+    padding: 20px;
+    
+} 
+
+button{
+    font-family: 'Montserrat Bold';
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #3456FE;
+    color: #FFFFFF;
+    border: none;
+}
+
+button:hover{
+    background-color: #3249c0;
+}
+
+b{
+    font-size: 20px;
+}
+.container {
+    max-width: 1112px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+} 
+
+.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 38px;
+    
+     
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    font-family: 'Poppins Bold';
+    margin-left: 15px;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    max-width: 740px;
+}
+
+.about-text-header{
+    font-family: 'Poppins Bold';
+    width: 432px;
+    font-size: 38px;
+    margin-bottom: 54px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.about-text-main{
+    font-family: 'Poppins Regular';
+    padding-top: 100px;
+    width: 506px;
+    font-size: 18px;
+    margin-bottom: 42px;
+    
+}
+
+.about-img {
+    margin-bottom: 17px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax);
+    gap: 20px; 
+}
+    
+.grid-item {
+    display: flex;
+    flex-direction: column; 
+}
+    
+
+.service-info{
+    display: flex;
+    align-items: center;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.info-about-home{
+    text-align: left;
+}
+
+.adress{
+    font-family: 'Montserrat Regular';
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.seller{
+    font-family: 'Montserrat Bold';
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cost{
+    font-family: 'Montserrat Bold';
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.menu{
+    
+    padding-top: 47px;
+}
+
+.nav a {
+    font-family: 'Poppins Medium';
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-footer a{
+    font-family: 'Montserrat Regular';
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.nav-footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-footer li{
+    padding-top: 15px;
+    text-align: left;
+
+}
+
+.header-footer{
+    font-family: 'Montserrat Bold';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.text-footer{
+    font-family: 'Poppins Regular';
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.logo-text-footer{
+    font-family: 'Poppins Bold';
+    font-size: 20px;
+}
+
+.footer-intern-site{
+    margin-left: 100px;
+}
+
+
+.about-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    color: black;
+    text-align: center;
+}
+
+.about-text{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.about-img img{
+    margin-bottom: 17px;
+    width: 344px;
+    height: 215px;
+}
+
+.creating{
+    font-family: 'Poppins Bold';
+    width: 403px;
+    padding-top: 34px;
+    margin-bottom: 50px;
+    font-size: 38px;
+}
+
+h3{
+    font-family: 'Montserrat Bold';
+    margin-bottom: 40px;
+}
+
+.estate{
+    font-family: 'Poppins Regular';
+    font-size: 18px;
+    width: 344px;
+    margin-bottom: 30px;
+}
+
+.container-service{
+    display: flex;
+    width: auto;
+    background-color: #FFFFFF;
+}
+
+.footer-text{
+    font-size: 20px;
+    text-align: left;
+}
+.service {
+    background-color: white;
+    color: black;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-item {
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-text{
+    margin-right: 96px;
+    
+}
+
+.blog {
+    color: white;
+    text-align: center;
+}
+
+.properties {
+    background-color: #060928;
+    color: white;
+}
+
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.property {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #3456FE;
+    color: white;
+    text-align: center;
+}
+
+.talk{
+    background-color: #060928;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    
+}
+
+footer {
+    background-color: #3456FE;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.footer {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer-logo{
+    display: block;
+    
+
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text-footer{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.footer-menu-intern-site,
+.footer-menu-partner-site{
+    display: block;
+}
+
+
+
+.contacts{
+    font-family: 'Montserrat Bold';
+    padding-top: 100px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+.phone{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.phone a,
+.email a,
+.telegram a{
+    font-family: 'Montserrat Regular';
+    padding-left:  10px; ;
+    text-decoration: none;
+    color: white;
+}
+.phone a:hover,
+.email a:hover,
+.telegram a:hover{
+    color: gray;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 6px;
+    text-align: left;
+}
+
+.telegram{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 6px;
+    text-align: left;
+}
+
+@media (max-width: 320px) {
+
+    .container {
+        padding: 0 15px;
+        max-width: 320px;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .main-text {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+    header{
+        background: url("../img/background-header-menu.png") no-repeat top center;
+        background-size: auto 100%;
+        background-color: #FFFFFF;
+    }
+
+    .sub-text {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container-hero {
+        padding: 10px;
+    }
+
+    .logo-text {
+        font-size: 18px;
+    }
+
+    .nav a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .about-text{
+        display: block;
+    }
+
+    .about-text-header {
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .about-text-main {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    .about-img {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .service-list-author img{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .creating{
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .estate{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    h3{
+        margin-top: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    .info-about-home {
+        font-size: 12px;
+    }
+
+    .text-footer{
+        font-size: 14px;
+    }
+
+    .contacts{
+        padding-top: 5px;
+        text-align: left;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-menu-intern-site,
+    .footer-menu-partner-site {
+        padding-left: 0;
+    }
+
+    .footer-menu-intern-site li,
+    .footer-menu-partner-site li {
+        font-size: 14px;
+    }
+
+    .nav-footer a{
+        font-size: 14px;
+    }
+
+    .footer-partner-site{
+        padding-top: 15px;
+    }
+
+    .phone a,
+    .email a,
+    .telegram a {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo, .nav, .about-text, .service-info, .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav ul {
+        color: white;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-text {
+        color: black;
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .sub-text {
+        color: black;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .about-text-header,
+    .about-text-main,
+    .creating,
+    .estate {
+        width: 100%;
+        text-align: left;
+    }
+
+    .about-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-info {
+        flex-direction: column;
+    }
+
+    .service-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .service-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-intern-site,
+    .footer-partner-site {
+        margin-left: 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .about-img {
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-list {
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .about-img {
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-list {
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .container {
+        max-width: 1600px;
+    }
+
+    .main-text {
+        font-size: 64px;
+        width: 700px;
+    }
+
+    .sub-text {
+        font-size: 22px;
+        width: 650px;
+    }
+
+    .about-text-header {
+        font-size: 48px;
+        width: 600px;
+    }
+
+    .about-text-main {
+        font-size: 22px;
+        width: 650px;
+    }
+
+    .about-img img {
+        align-items: center;
+        width: 400px;
+        height: 250px;
+    }
+
+    .service-text {
+        margin-right: 150px;
+    }
+
+    .creating {
+        font-size: 48px;
+        width: 600px;
+    }
+
+    .estate {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .text-footer, .footer-text, .contacts {
+        font-size: 22px;
+    }
+
+    .nav-footer a {
+        font-size: 22px;
+    }
+
+    button {
+        width: 250px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    b {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
